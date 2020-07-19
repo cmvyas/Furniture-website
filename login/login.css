@@ -1,0 +1,19 @@
+body{
+    background: url(https://www.desktopbackground.org/download/o/2013/09/05/634079_white-rainbow-wallpapers_1440x900_h.jpg) no-repeat fixed center;
+}
+.container{
+    height: 400px;
+    position: relative;
+}
+.login-form{
+    margin: auto;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 7px;
+    box-shadow: 1px 2px 4px 1px #e6e6e6;
+    padding:15px 10px;
+    color: #4d4d4d;
+    background: rgba(255, 255, 255,0.9555);
+}
