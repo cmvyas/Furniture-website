@@ -1,5 +1,9 @@
 body{
-    background: url(https://www.desktopbackground.org/download/o/2013/09/05/634079_white-rainbow-wallpapers_1440x900_h.jpg) no-repeat fixed center;
+    background: url("./back.jpg") no-repeat fixed center;
+    background-repeat: no-repeat;
+   background-attachment: fixed;
+  background-size: cover;
+
 }
 .container{
     height: 400px;
@@ -9,7 +13,7 @@ body{
     margin: auto;
     position: absolute;
     top: 60%;
-    left: 50%;
+    left: 30%;
     transform: translate(-50%, -50%);
     border-radius: 7px;
     box-shadow: 1px 2px 4px 1px #e6e6e6;
