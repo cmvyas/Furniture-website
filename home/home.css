@@ -13,3 +13,12 @@ hr{
 .jumbotron{
     margin-bottom:0;
 }
+.d-block-w-100{
+    
+	height: 500px;
+	width: 800px;
+	margin-left: 130px;
+	margin-right: 100px;
+	margin-top: 60px;
+
+}
