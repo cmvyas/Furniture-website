@@ -1,0 +1,15 @@
+body{
+    text-align:center;
+}
+hr{
+    width: 85%;
+}
+.card-img{
+    width:40vh;
+    height: 30vh;
+    padding: 5px;
+    margin: auto;
+}
+.jumbotron{
+    margin-bottom:0;
+}
