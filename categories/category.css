@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose&display=swap');
+body{
+  background-color: #f4f9f4;
+}
+
 .heading{
 	font-family: 'Rowdies', cursive;
 	color:#0f4c75;
@@ -75,10 +80,14 @@ font-weight: 400;
   margin-left: 29px;
   margin-right: 20px;
   marker-bottom: 10px;
+  transition: all .7s;
+  box-shadow: 10px 10px 8px #888888;
 
 
 }
-
+.card:hover{
+  transform: scale(1.05);
+}
 .price {
   color: grey;
   font-size: 22px;
@@ -101,4 +110,29 @@ font-weight: 400;
 }
 
 
-
+h1{
+  font-family: 'Red Rose', cursive;
+  font-size: 1.7rem;
+  color: #272343;
+}
+.products{
+  font-family: 'Red Rose', cursive;
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-self: center;
+  color: #333333;
+  text-shadow: 1px 1px 1px black;
+}
+.footer {
+  
+  left: 0;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
+  background-color: white;
+  color: grey;
+  text-align: center
+  margin:0px;
+  padding: 0px;
+}
