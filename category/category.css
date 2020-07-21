@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose&display=swap');
+body{
+  background-color: #f4f9f4;
+}
+
+.heading{
+	font-family: 'Rowdies', cursive;
+	color:#0f4c75;
+}
+
+#header {
+  background: #fff;
+  z-index: 997;
+  padding: 15px ;
+  top: 0px;
+  box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
+}
+
+#header.header-scrolled {
+  top: 0;
+}
+
+#header .logo {
+  font-size: 32px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  font-family: "Poppins", sans-serif;
+  margin-left: -30px;
+}
+
+#header .logo a {
+  color: #0f4c75;
+}
+
+
+@media (max-width: 992px) {
+  #header {
+    top: 0;
+  }
+  #header .logo {
+    font-size: 28px;
+  }
+}
+
+.nav-link{
+	padding: 10px;
+	margin: 5px;
+word-spacing: 5px;
+font-size: 16px;
+font-family: 'Mulish', sans-serif;
+font-weight: 400;
+}
+
+.d-block-w-100{
+    
+  height: 200px;
+  width: 200px;
+  margin-left: 130px;
+  margin-right: 100px;
+  margin-top: 60px;
+
+}
+
+.images{
+  height: 200px;
+  width: 260px;
+}
+.card {
+  display: inline-block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  margin-left: 29px;
+  margin-right: 20px;
+  marker-bottom: 10px;
+  transition: all .7s;
+  box-shadow: 10px 10px 8px #888888;
+
+
+}
+.card:hover{
+  transform: scale(1.05);
+}
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+
+h1{
+  font-family: 'Red Rose', cursive;
+  font-size: 1.7rem;
+  color: #272343;
+}
+.products{
+  font-family: 'Red Rose', cursive;
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-self: center;
+  color: #333333;
+  text-shadow: 1px 1px 1px black;
+}
+.footer {
+  
+  left: 0;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
+  background-color: white;
+  color: grey;
+  text-align: center
+  margin:0px;
+  padding: 0px;
+}
