@@ -3,7 +3,7 @@ body{
 margin-left: 30px;
 margin-right: 30px;
 margin-top: 20px;
-margin-bottom: 0;
+margin-bottom: 0px;
 background-color: #f4f9f4;
 }
 h1{
@@ -65,6 +65,64 @@ hr{
 
 	width: 800px;
 }
+.hr1{
+  width: 180px;
+   border-top: 1px solid orange;
+}
+.hr2{
+  width: 240px;
+   border-top: 1px solid orange;
+}
 .jumbotron{
-    margin-bottom:0;
+    margin-bottom:0 !important;
+}
+.heading{
+  font-family: 'Rowdies', cursive;
+  color:#0f4c75;
+}
+
+#header {
+  background: #fff;
+  z-index: 997;
+  padding: 15px ;
+  top: 0px;
+  box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
+}
+
+#header.header-scrolled {
+  top: 0;
+}
+
+#header .logo {
+  font-size: 32px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  font-family: "Poppins", sans-serif;
+  margin-left: -30px;
+}
+
+#header .logo a {
+  color: #0f4c75;
+}
+
+
+@media (max-width: 992px) {
+  #header {
+    top: 0;
+  }
+  #header .logo {
+    font-size: 28px;
+  }
+}
+
+.nav-link{
+  padding: 10px;
+  margin: 5px;
+word-spacing: 5px;
+font-size: 16px;
+font-family: 'Mulish', sans-serif;
+font-weight: 400;
 }
