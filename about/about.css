@@ -33,6 +33,7 @@ background-color: #f4f9f4;
   letter-spacing: 0.5px;
   font-family: "Poppins", sans-serif;
   margin-left: -30px;
+  text-shadow: 2px 2px 2px gray;
 }
 
 #header .logo a {
